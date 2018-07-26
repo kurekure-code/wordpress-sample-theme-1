@@ -2,8 +2,9 @@
 <head <?php language_attributes(); ?>>
     <meta charset="<?php bloginfo("charset"); ?>">
     <meta name="" content="">
+    <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 
 </body>
 </html>
